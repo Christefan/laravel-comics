@@ -1,15 +1,15 @@
 .container-comic {
-    height: 80vh;
+    min-height: 70vh;
     position: relative;
     .comic-id {
         background-color: rgb(33, 53, 233);
-        height: 70vh - 60vh;
+        height: 10vh;
         .comic-id-img {
             height: 350px;
-            width: 340px;
+            width: 240px;
             position: absolute;
             top: -280px;
-            left: 20%;
+            left: 18%;
             img {
                 width: 100%;
                 height: 100%;
@@ -18,11 +18,11 @@
         }
     }
     .comic-information{
-        width: 80%;
+        width: 70%;
         display: flex;
         justify-content: space-around;
         margin: auto;
-        height: 70vh - 25vh;
+        height: 45vh;
         z-index: 1;
         padding: 25px;
         h1 {
@@ -55,5 +55,41 @@
                 color: gray;
             }
         }
+    }
+    .comic-description-bg{
+        background-color: rgb(164, 150, 150);
+    .comic-description{
+        display: flex;
+        height: 30vh;
+        width: 70%;
+        padding: 30px;
+        margin: auto;
+        h3 {
+            font-size: 33px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid gainsboro;
+        }
+        .comic-description-sx {
+            width: 50%;
+            .prova {
+                display: flex;
+                border-bottom: 2px solid gainsboro;
+                padding: 10px 0;
+                p {
+                    margin: 0 30px;
+                }
+            }
+        }
+        .comic-description-dx {
+            width: 50%;
+            margin-left: 30px;
+            .prova {
+                display: flex;
+                flex-wrap: wrap;
+                padding: 10px 0;
+                border-bottom: 2px solid gainsboro;
+            }
+        }
+    }
     }
 }

@@ -25,6 +25,40 @@
             <img src="{{ asset('images/adv.jpg') }}">
         </div>
     </div>
-    <div></div>
+    <section class="comic-description-bg">
+        <div class="comic-description">
+            <div class="comic-description-sx">
+                <h3>Talent</h3>
+                <div class="prova">
+                    <h4>Art by:</h4>
+                    <p>
+                        @foreach($comic_card['artists'] as $item)
+                        {{$item}},
+                        @endforeach
+                    </p> 
+                </div>
+                <div class="prova">
+                    <h4>Written by:</h4>
+                    <p>
+                        @foreach($comic_card['writers'] as $item)
+                        {{$item}},
+                        @endforeach
+                    </p>
+                </div>  
+            </div>
+            <div class="comic-description-dx">
+                <h3>Specs</h3>
+                <div class="prova">
+                    <h4>Series: <span>{{$comic_card['series']}}</span></h4>
+                </div>
+                <div class="prova">
+                    <h4>U.S. Price: <span>{{$comic_card['price']}}</span></h4>
+                </div>
+                <div class="prova">
+                    <h4>On Sale Date: <span>DATA</span></h4>
+                </div>
+            </div>
+        </div>
+    </section>
 </section>
 @endsection

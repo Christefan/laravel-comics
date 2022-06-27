@@ -90,7 +90,7 @@
 }
 
 .container-comic {
-  height: 80vh;
+  min-height: 70vh;
   position: relative;
 }
 
@@ -101,10 +101,10 @@
 
 .container-comic .comic-id .comic-id-img {
   height: 350px;
-  width: 340px;
+  width: 240px;
   position: absolute;
   top: -280px;
-  left: 20%;
+  left: 18%;
 }
 
 .container-comic .comic-id .comic-id-img img {
@@ -115,7 +115,7 @@
 }
 
 .container-comic .comic-information {
-  width: 80%;
+  width: 70%;
   display: flex;
   justify-content: space-around;
   margin: auto;
@@ -157,6 +157,50 @@
   margin-left: 158px;
   padding-bottom: 0.2rem;
   color: gray;
+}
+
+.container-comic .comic-description-bg {
+  background-color: rgb(164, 150, 150);
+}
+
+.container-comic .comic-description-bg .comic-description {
+  display: flex;
+  height: 30vh;
+  width: 70%;
+  padding: 30px;
+  margin: auto;
+}
+
+.container-comic .comic-description-bg .comic-description h3 {
+  font-size: 33px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid gainsboro;
+}
+
+.container-comic .comic-description-bg .comic-description .comic-description-sx {
+  width: 50%;
+}
+
+.container-comic .comic-description-bg .comic-description .comic-description-sx .prova {
+  display: flex;
+  border-bottom: 2px solid gainsboro;
+  padding: 10px 0;
+}
+
+.container-comic .comic-description-bg .comic-description .comic-description-sx .prova p {
+  margin: 0 30px;
+}
+
+.container-comic .comic-description-bg .comic-description .comic-description-dx {
+  width: 50%;
+  margin-left: 30px;
+}
+
+.container-comic .comic-description-bg .comic-description .comic-description-dx .prova {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  border-bottom: 2px solid gainsboro;
 }
 
 footer {
