@@ -33,6 +33,29 @@
   align-items: center;
 }
 
+.list-comics {
+  background-color: rgb(33, 31, 31);
+}
+
+.list-comics .container-comics {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.list-comics .container-comics h5 {
+  color: white;
+  padding: 0.1em;
+  width: 80%;
+}
+
+.list-comics .container-comics .comic {
+  width: 16.6666666667%;
+  padding: 2rem 0.5rem;
+  cursor: pointer;
+}
+
 .container-shop {
   background-color: rgb(25, 109, 236);
   color: white;
@@ -64,6 +87,57 @@
 .container-shop .cont p {
   font-size: 20px;
   margin: 0 10px;
+}
+
+.container-comic {
+  background-color: rgb(238, 0, 0);
+  height: 80vh;
+  position: relative;
+}
+
+.container-comic .comic-id {
+  background-color: black;
+  height: 10vh;
+}
+
+.container-comic .comic-id .comic-id-img {
+  background-color: blueviolet;
+  height: 330px;
+  width: 280px;
+  position: absolute;
+  top: -250px;
+  left: 24%;
+}
+
+.container-comic .comic-information {
+  background-color: aqua;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  height: 45vh;
+  z-index: 1;
+  padding: 25px;
+}
+
+.container-comic .comic-information .comic-information-sx {
+  padding-right: 1.3rem;
+}
+
+.container-comic .comic-information .comic-information-sx p {
+  font-size: 20px;
+}
+
+.container-comic .comic-information .comic-information-sx .barra {
+  display: flex;
+  background-color: green;
+  margin: 25px 0;
+}
+
+.container-comic .comic-information .comic-information-dx h4 {
+  margin-left: 158px;
+  padding-bottom: 0.2rem;
+  color: gray;
 }
 
 footer {

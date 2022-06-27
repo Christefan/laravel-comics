@@ -1,0 +1,47 @@
+.container-comic {
+    background-color: rgb(238, 0, 0);
+    height: 80vh;
+    position: relative;
+    .comic-id {
+        background-color: black;
+        height: 70vh - 60vh;
+        .comic-id-img {
+            background-color: blueviolet;
+            height: 330px;
+            width: 280px;
+            position: absolute;
+            top: -250px;
+            left: 24%;
+        }
+    }
+    .comic-information{
+        background-color: aqua;
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        height: 70vh - 25vh;
+        z-index: 1;
+        padding: 25px;
+        .comic-information-sx {
+            padding-right: 1.3rem;
+            p {
+                font-size: 20px;
+            }
+            .barra {
+                display: flex;
+                background-color: green;
+                margin: 25px 0;
+                .barra-dx {
+                }
+            }
+        }
+        .comic-information-dx {
+            h4{
+                margin-left: 158px;
+                padding-bottom: 0.2rem;
+                color: gray;
+            }
+        }
+    }
+}

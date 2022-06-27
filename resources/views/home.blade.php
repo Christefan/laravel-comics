@@ -1,6 +1,18 @@
 @extends('layouts.app')
 
 @section('main_content')
+<div class="list-comics">
+    <div class="container-comics">
+        @foreach ($data as $key=>$card)
+        <div class="comic">
+            <a href="{{ route('comic', $loop -> $key) }}">
+            <img src="{{$card['thumb']}}" alt="" />
+        </a>
+            <h5>{{ $card['title'] }}</h5>
+        </div>
+        @endforeach
+    </div>
+</div>
 <div class="container-shop">
     <ul>
         <li>

@@ -6,6 +6,27 @@
     align-items: center;
 }
 
+.list-comics {
+    background-color: rgb(33, 31, 31);
+    .container-comics {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        flex-wrap: wrap;
+      // border: 2px solid blue;  
+    h5 {
+        color: white;
+        padding: 0.1em;
+        width: 80%;
+    }
+    .comic {
+        width: calc(100% / 6);
+        padding: 2rem 0.5rem;
+        cursor: pointer;
+    }
+    }
+}
+
 .container-shop {
     background-color: rgb(25, 109, 236);
     color: white;
