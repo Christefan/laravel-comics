@@ -25,15 +25,57 @@
   border-bottom: 5px solid royalblue;
 }
 
+.container-jumbo {
+  background-image: url(/images/jumbotron.jpg);
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.container-shop {
+  background-color: rgb(25, 109, 236);
+  color: white;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container-shop ul {
+  display: flex;
+}
+
+.container-shop li {
+  list-style-type: none;
+  margin: 0 15px;
+}
+
+.container-shop img {
+  width: 60px;
+  height: 60px;
+}
+
+.container-shop .cont {
+  display: flex;
+  align-items: center;
+}
+
+.container-shop .cont p {
+  font-size: 20px;
+  margin: 0 10px;
+}
+
 footer {
-  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-image: url(/images/footer-bg.jpg);
   background-size: cover;
 }
 
 footer .footer-container {
-  height: 450px;
+  margin-left: 60px;
+  height: 445px;
   width: 90%;
-  background-image: url(/images/dc-logo-bg.png?f4404ce9dc132a08a47f19e3f73f1417);
+  background-image: url(/images/dc-logo-bg.png);
   background-repeat: no-repeat;
   background-position: right center;
 }
@@ -49,16 +91,31 @@ footer .footer-container .footer-nav h2 {
 
 footer .footer-container .footer-nav ul {
   list-style-type: none;
+  padding: 23px;
 }
 
 footer .footer-container .footer-nav ul li {
-  padding: 5px 0;
+  padding: 3px 0;
 }
 
 footer .footer-container .footer-nav ul li a {
   text-decoration: none;
   color: rgb(155, 152, 152);
   font-size: 14px;
+}
+
+footer .footer-container .footer-nav ul li h2 {
+  margin: 15px 0;
+}
+
+footer .footer-container .footer-text {
+  padding: 10px 20px 10px;
+  color: rgb(155, 152, 152);
+}
+
+footer .footer-container .footer-text a {
+  text-decoration: none;
+  color: rgb(62, 62, 255);
 }
 
 * {

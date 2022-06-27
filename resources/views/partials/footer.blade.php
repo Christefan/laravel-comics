@@ -38,5 +38,12 @@
                 <li><a href="#"> DC Power Visa </a></li>
             </ul>
         </div>
+        <div class="footer-text">
+            <p>
+                All Site Content TM and @ 2020 DC Entrertainment,
+                unless otherwise <a href="">noted here</a>.All rights reserved.<br>
+                <a href="">Cookies Settings</a>
+            </p>
+        </div>
     </div>
 </footer>

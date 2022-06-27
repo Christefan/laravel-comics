@@ -1,7 +1,7 @@
 <header>  
     <div class="header-container">
         <div class="logo">
-        <img src="{{ asset('img/dc-logo.png') }}" alt="" />
+        <img src="{{ asset('images/dc-logo.png') }}" alt="" />
         </div>
         <div class="list-header">
         <ul>

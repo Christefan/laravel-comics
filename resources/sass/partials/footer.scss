@@ -1,10 +1,11 @@
 footer {
-    background-image: url(./../../../public/img/footer-bg.jpg);
+    background-image: url(/images/footer-bg.jpg);
     background-size: cover;
     .footer-container {
-        height: 450px;
+        margin-left: 60px;
+        height: 445px;
         width: 90%;
-        background-image: url(./../../../public/img/dc-logo-bg.png);
+        background-image: url(/images/dc-logo-bg.png);
         background-repeat: no-repeat;
         background-position: right center;
         .footer-nav {
@@ -15,15 +16,27 @@ footer {
         }  
         ul {
             list-style-type: none;
+            padding: 23px;
             li {
-            padding: 5px 0;
+            padding: 3px 0;
                     a   {
                 text-decoration: none;
                 color: rgb(155, 152, 152);
                 font-size: 14px;
                     }
+                    h2 {
+                        margin: 15px 0;
+                    }
                 }
             }
+        }
+        .footer-text {
+            padding:10px 20px 10px;
+            color: rgb(155, 152, 152);
+                a {
+                    text-decoration: none;
+                    color: rgb(62, 62, 255);
+                }
         }
     }
 }
