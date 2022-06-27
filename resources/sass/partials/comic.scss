@@ -1,21 +1,23 @@
 .container-comic {
-    background-color: rgb(238, 0, 0);
     height: 80vh;
     position: relative;
     .comic-id {
-        background-color: black;
+        background-color: rgb(33, 53, 233);
         height: 70vh - 60vh;
         .comic-id-img {
-            background-color: blueviolet;
-            height: 330px;
-            width: 280px;
+            height: 350px;
+            width: 340px;
             position: absolute;
-            top: -250px;
-            left: 24%;
+            top: -280px;
+            left: 20%;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
         }
     }
     .comic-information{
-        background-color: aqua;
         width: 80%;
         display: flex;
         justify-content: space-around;
@@ -23,6 +25,9 @@
         height: 70vh - 25vh;
         z-index: 1;
         padding: 25px;
+        h1 {
+            font-size: 60px;
+        }
         .comic-information-sx {
             padding-right: 1.3rem;
             p {
@@ -30,9 +35,16 @@
             }
             .barra {
                 display: flex;
-                background-color: green;
-                margin: 25px 0;
-                .barra-dx {
+                justify-content: space-between;
+                align-items: center;
+                margin: 20px 0;
+                background-color: #55ba59;
+                .barra-sx {
+                    padding: 10px;
+                    color: #b6fa96;
+                    span {
+                        color: white;
+                    }
                 }
             }
         }

@@ -20,7 +20,7 @@ Route::get('/', function () use ($data) {
     return view('home',compact("data"));
 })->name('home');
 
-Route::get('/comic/{id}', function ($key) use ($data) {
-    $comic_card = $data[$key];
-    return view('comic', $comic_card);
+Route::get('/comic/{id}', function ($id) use ($data) {
+    $comic_card = $data[$id];
+    return view('comic', compact("comic_card"));
 })->name('comic');
