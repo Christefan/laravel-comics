@@ -3,9 +3,9 @@
 @section('main_content')
 <div class="list-comics">
     <div class="container-comics">
-        @foreach ($data as $card)
+        @foreach ($data as $key=>$card)
         <div class="comic">
-        <a href="{{ route('comic',  $loop->index) }}">
+        <a href="{{ route('comic',   ['id' => $key]) }}">
             <img src="{{$card['thumb']}}" alt="" />
         </a>
             <h5>{{ $card['title'] }}</h5>
